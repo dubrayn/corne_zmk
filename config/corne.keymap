@@ -35,7 +35,7 @@ gresc: grave_escape {
         &gresc    &kp Q &kp W &kp E &kp R &kp T               &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
         &kp TAB   &kp A &kp S &kp D &kp F &kp G               &kp H &kp J  &kp K     &kp L   &kp SEMI &kp RET
         &kp LSHFT &kp Z &kp X &kp C &kp V &kp B               &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                          &kp LCTRL &kp LGUI &kp LALT      &kp SPACE &mo 1 &mo 2
+                          &kp LCTRL &kp LGUI &kp LALT      &kp SPACE &mo 1 &lt 2 K_APP
         >;
     };
     layer_1 {
@@ -52,7 +52,7 @@ gresc: grave_escape {
       label = "layer 2";
       bindings = <
         &kp GRAVE &kp N1     &kp N2        &kp N3        &kp N4       &kp N5             &kp N6     &kp N7    &kp N8    &kp N9    &kp N0      &kp MINUS
-        &trans    &com E SQT &com E GRAVE  &com E LS(N6) &com A GRAVE &com E LS(SQT)     &trans     &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS &kp K_APP
+        &trans    &com E SQT &com E GRAVE  &com E LS(N6) &com A GRAVE &com E LS(SQT)     &trans     &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS &kp K_ENTER
         &trans    &trans     &trans        &trans        &trans       &trans             &trans     &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_DOT  &trans
                                            &trans        &trans       &trans             &kp KP_NUM &kp KP_N0 &trans
         >;
