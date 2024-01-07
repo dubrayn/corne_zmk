@@ -32,26 +32,25 @@ gresc: grave_escape {
     layer_1 {
       label = "layer 1";
       bindings = <
-        &kp GRAVE    &kp LS(N1)       &kp LS(N2)       &kp LS(N3)       &kp LS(N4)       &kp LS(N5)         &kp LS(N6)   &kp LS(N7)   &kp LS(N8) &kp LS(N9)    &kp LS(N0) &kp MINUS
-        &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-        &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+        &kp GRAVE    &kp LS(N1)       &kp LS(N2)        &kp LS(N3)           &kp LS(N4)            &kp LS(N5)        &kp LS(N6) &kp LS(N7)    &kp LS(N8)  &kp LS(N9) &kp LS(N0)    &kp MINUS
+        &kp CAPSLOCK &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LS(LEFT_BRACKET) &kp LS(RIGHT_BRACKET) &kp BACKSLASH     &kp LEFT   &kp DOWN      &kp UP      &kp RIGHT  &kp LS(SEMI)  &kp SINGLEQUOTE
+        &trans       &trans           &trans            &kp EQUAL            &kp LS(EQUAL)         &kp LS(BACKSLASH) &kp HOME   &kp PAGE_DOWN &kp PAGE_UP &kp END    &kp LS(SLASH) &kp DELETE
+        &trans  &trans &trans &trans &trans &trans
         >;
     };
 
     layer_2 {
-      // -----------------------------------------------------------------------------------------
-      // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-      // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-      // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-      //                    | GUI |     | SPC |   | ENT |     | ALT |
       label = "layer 2";
       bindings = <
-        &kp GRAVE    &kp LS(N1)       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-        &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-        &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-        &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+        &kp GRAVE &kp N1 &kp N2 &kp N3         &kp N4    &kp N5      &kp N6 &kp N7    &kp N8    &kp N9    &kp N0      &kp MINUS
+        &trans    &trans &trans &trans         &trans    &trans      &trans &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_PLUS &kp KP_ENTER
+        &trans    &trans &trans &trans         &trans    &trans      &trans &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp KP_DOT  &trans
+        &trans    &trans &trans &kp KP_NUMLOCK &kp KP_N0 &trans
         >;
+
+
+
+        /* &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans */
     };
   };
 };
