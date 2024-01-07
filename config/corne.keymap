@@ -16,7 +16,7 @@
       compatible = "zmk,behavior-macro-two-param";
       binding-cells = <2>;
       bindings = <&kp K_APP>, <&macro_param_1to1>, <&kp 0>, <&macro_param_2to1>, <&kp 0>;
-    }
+    };
   };
   behaviors {
 gresc: grave_escape {
