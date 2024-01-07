@@ -47,8 +47,7 @@ gresc: grave_escape {
       label = "layer 1";
       bindings = <
         &kp GRAVE    &kp LS(N1) &kp LS(N2) &kp LS(N3)   &kp LS(N4)    &kp LS(N5)        &kp LS(N6) &kp LS(N7)    &kp LS(N8)  &kp LS(N9) &kp LS(N0)    &kp MINUS
-        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
-        /*&kp CAPSLOCK &kp LBKT   &kp RBKT   &kp LS(LBKT) &kp LS(RBKT)  &kp BACKSLASH     &kp LEFT   &kp DOWN      &kp UP      &kp RIGHT  &kp LS(SEMI)  &kp SINGLEQUOTE*/
+        &kp CAPSLOCK &kp LBKT   &kp RBKT   &kp LS(LBKT) &kp LS(RBKT)  &kp BACKSLASH     &kp LEFT   &kp DOWN      &kp UP      &kp RIGHT  &kp LS(SEMI)  &kp SINGLEQUOTE
         &trans       &trans     &trans     &kp EQUAL    &kp LS(EQUAL) &kp LS(BACKSLASH) &kp HOME   &kp PAGE_DOWN &kp PAGE_UP &kp END    &kp LS(SLASH) &kp DELETE
         &trans  &trans &trans &trans &trans &trans
         >;
