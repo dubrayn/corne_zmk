@@ -12,7 +12,7 @@
   macros {
     compose: compose {
       compatible = "zmk,behavior-macro-two-param";
-      binding-cells = <2>;
+      #binding-cells = <2>;
       wait-ms = <40>;
       tap-ms = <40>;
       bindings = <&kp K_APP &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_2to1 &kp MACRO_PLACEHOLDER>;
