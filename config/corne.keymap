@@ -13,7 +13,7 @@
     compatible = "zmk,combos";
     combo_layer3 {
       timeout-ms = <50>;
-      key-positions = <37, 40>;
+      key-positions = <37 40>;
       bindings = <&mo 3>;
     };
   };
